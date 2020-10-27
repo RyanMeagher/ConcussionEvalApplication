@@ -21,12 +21,13 @@ public class Athlete {
         String[] symptoms = {
                 "Headache", "Pressure in head", "Neck Pain", "Nausea or Vomiting",
                 "Dizziness", "Blurred vision", "Balance Problems", "Sensitivity to light",
-                "Sensitivity to noise", "Sensitivity to noise", " Feeling Slowed down",
+                "Sensitivity to noise", " Feeling Slowed down",
                 "Feeling like in a fog", "Don't feel right", "Difficulty concentrating",
                 "Difficulty remembering", "Fatigue or low energy", "Confusion", "Drowsiness",
                 "Trouble falling asleep", "More emotional", "Irritability", "Sadness",
                 "Nervous or anxious"
         };
+
 
         for (var symptom : symptoms) {
             System.out.printf("please enter you %s score 0 if none, " +
@@ -41,6 +42,8 @@ public class Athlete {
         symptomStorage.put(week_num,response);
 
     }
+
+
 
 
 }
